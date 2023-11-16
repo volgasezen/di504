@@ -1,7 +1,7 @@
 To use this lab in the colab environment, make sure you upload the utils.py along with the raw data or preprocessed data to the virtual machine's main directory.
 You can also pull data from your own google drive using the following code block: 
 
-> from google.colab import drive
+> from google.colab import drive <br>
 > drive.mount('/content/drive')
 
 (This will ask you to log in each time. You can also mount your google drive using this part. 
