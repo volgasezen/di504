@@ -6,6 +6,8 @@ from nltk.tokenize import NLTKWordTokenizer
 from bs4 import BeautifulSoup
 import re
 
+nltk.download('stopwords')
+
 stop_words = stopwords.words("english")
 stop_words.append('movi')
 stop_words.append('film')
