@@ -1,26 +1,9 @@
 # Instructions
 
-To use this lab in the colab environment, make sure you upload the utils.py along with the raw data to the virtual machine's main directory.
-You can also pull data from your own google drive using the following code block: 
+Since this lab focuses on NLP, the `torchtext` library will be utilized. torchtext development has stopped since April 2024, therefore it won't be supported with newer versions of PyTorch.
 
-~~~
-from google.colab import drive
-drive.mount('/content/drive')
-~~~
+To run this lab in the colab environment, you must run the first two cells. They will do the following:
 
-(This will ask you to log in each time. You can also mount your google drive using this part. 
-After you set it up once it will automatically connect every time you open this notebook.)
-
-<img src="https://github.com/volgasezen/di504/assets/127928023/d257b486-b593-46df-b43a-7ea4493f2318" alt="gdrive instructions" width="500"/>
-
-To download the raw data into the colab environment directly, you can use the following command:
-
-~~~
-!gdown --id 14JMMOvhOlCotz5ZPbrq_WF9xLsjQ3kUq
-~~~
-
-And finally the preprocessed version of the dataset can be downloaded with this command to save time:
-
-~~~
-!gdown --id 1rd62dw3yV2j05qOxHdKgLI-0y_BNPPcR
-~~~
+1. Downgrade the pytorch version to 2.3.1
+2. Install torchtext and
+3. Download the data and the utils.py file with wget calls
