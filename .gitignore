@@ -1,3 +1,6 @@
 Lab1/MNIST
 Lab2/.vector_cache
 Lab2/__pycache__
+Lab3/wandb
+Lab3/nohup.out
+Lab3/log.txt
