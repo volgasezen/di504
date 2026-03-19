@@ -1,9 +1,7 @@
 # Instructions
 
-Since this lab focuses on NLP, the `torchtext` library will be utilized. torchtext development has stopped since April 2024, therefore it won't be supported with newer versions of PyTorch.
+This lab session will focus on understanding the embedding layer to represent text, and using a CNN to capture relationships between words for classifying movie reviews into positive and negative sentiment.
 
-To run this lab in the colab environment, you must run the first two cells. They will do the following:
+You can click the "Open in Colab" link at the top to connect to a virtual GPU and run the notebook. In the first two cells make sure to run the `wget` commands to download the dataset and preprocessing function and import the necessary packages.
 
-1. Downgrade the pytorch version to 2.3.1
-2. Install torchtext and
-3. Download the data and the utils.py file with wget calls
+In the bonus part covering pre-trained embedding vectors, `gensim` module was used. You will also need to installl it with `pip` on colab.
